@@ -1,6 +1,6 @@
 # ONNX Runtime on Azure Functions Example
 
-ONNX is so sool :sunglasses:
+ONNX with Severless is so sool :sunglasses:
 
 See also [my article[Japanese]](https://qiita.com/okajax/items/b85dea2a97b0d82cd340)
 
