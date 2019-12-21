@@ -1,6 +1,6 @@
 # ONNX Runtime on Azure Functions Example
 
-ONNX is so sool. :cool:
+ONNX is so sool :sunglasses:
 
 See also [my article[Japanese]](https://qiita.com/okajax/items/b85dea2a97b0d82cd340)
 
@@ -11,6 +11,10 @@ See also [my article[Japanese]](https://qiita.com/okajax/items/b85dea2a97b0d82cd
 - Python 3.6
 - pipenv
 - Azure Blob Storage (for ONNX Model, Labels dictonary JSON)
+
+Files
+- [MobileNet ONNX Model](https://github.com/onnx/models/tree/master/vision/classification/mobilenet)
+- [Labels dictonary](https://gist.github.com/PonDad/4dcb4b242b9358e524b4ddecbee385e9)
 
 ### 2. Set a environment variable
 
