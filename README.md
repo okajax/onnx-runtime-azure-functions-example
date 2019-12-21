@@ -29,14 +29,14 @@ And, set a connect string for your Blob Storage account.
 
 ### Replace codes for your project.
 
-#### __init__.py
-```
+#### HttpTrigger/__init__.py
+```HttpTrigger/__init__.py
         container_client = blob_service_client.get_container_client('<your_container>') 
 ```
 
 
 #### Pipfile
-```
+```Pipfile
 deploy = "func azure functionapp publish <your_project> --python"
 ```
 
@@ -47,7 +47,7 @@ $ pipenv install  # if you hav trouble, just do it. $ pipenv --three --python=`w
 $ pipenv run start
 ```
 
-### Deploy to cloud :cloud_lightning:
+### Deploy to cloud :zap:
 
 ```
 $ pipenv run deploy
