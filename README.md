@@ -14,7 +14,7 @@ See also [my article[Japanese]](https://qiita.com/okajax/items/b85dea2a97b0d82cd
 - [MobileNet ONNX Model](https://github.com/onnx/models/tree/master/vision/classification/mobilenet)
 - [Labels dictonary](https://gist.github.com/PonDad/4dcb4b242b9358e524b4ddecbee385e9)
 
-## 2. Set a environment variable
+## 2. Set an environment variable
 
 ### For local development
 
