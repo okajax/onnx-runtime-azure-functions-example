@@ -6,13 +6,15 @@ See also [my article[Japanese]](https://qiita.com/okajax/items/b85dea2a97b0d82cd
 
 ## Get started
 
-### Requirements
+### 1. Requirements
 
 - Python 3.6
 - pipenv
 - Azure Blob Storage (for ONNX Model, Labels dictonary JSON)
 
-### Set a environment variable
+### 2. Set a environment variable
+
+#### For local development
 
 ```
 $ cp local.setting.example.json local.setting.json
@@ -20,14 +22,18 @@ $ cp local.setting.example.json local.setting.json
 
 And, set a connect string for your Blob Storage account.
 
-```
+```local.setting.json
     "Values": {
       "BLOB_CONNECTION_STRING": "<your_connect_string>"
     }
 ```
 
+#### For cloud
 
-### Replace codes for your project.
+Edit settings on Azure.
+
+
+### 3. Replace codes for your project
 
 #### HttpTrigger/__init__.py
 ```HttpTrigger/__init__.py
@@ -40,14 +46,16 @@ And, set a connect string for your Blob Storage account.
 deploy = "func azure functionapp publish <your_project> --python"
 ```
 
-### Run :rocket:
+### 4. Run :rocket:
 
 ```
 $ pipenv install  # if you hav trouble, just do it. $ pipenv --three --python=`which python3`
 $ pipenv run start
 ```
 
-### Deploy to cloud :zap:
+POST a image to endpoint :+1:
+
+### 5. Deploy to cloud :zap:
 
 ```
 $ pipenv run deploy

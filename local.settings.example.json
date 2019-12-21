@@ -1,0 +1,6 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+      "BLOB_CONNECTION_STRING": "<your_connect_string>"
+    }
+}
